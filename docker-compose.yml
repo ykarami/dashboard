@@ -2,7 +2,7 @@ version: '3'
 services:
 
   #Nginx Service
-  webserver:
+  dashboard:
     image: richarvey/nginx-php-fpm
     container_name: dashboard
     restart: unless-stopped
